@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link
+			href="https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap"
+			rel="stylesheet"
+		/>
+		<script src="ImageGallery.js"></script>
+		<link rel="stylesheet" href="../style.css" />
+		<link rel="stylesheet" href="../ImageGallery/ImageGallery.css" />
+		<title>Image Gallery</title>
+    </head>
+	<body>
+		<header>
+			<a  href="../NewUI/NewUI.html">
+			<div class="logo-container">
+				<img src="../img/logo.svg" alt="logo" />
+				<h4 class="logo">Three Dots</h4>
+			</div>
+		</a>
+			<nav>
+				<ul class="nav-links">
+					<li><a class="nav-link" href="../NewUI/NewUI.html">Image Gallery</a></li>
+					<li><a class="nav-link" href="../Technologies/Technologies.html">Technologies</a></li>
+					<li><a class="nav-link" href="#">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<div class="row">
+				<div class="column">
+				  <img src="../img/6367fdd6eaa2901e32277e5d2531b557.jpg" alt="Nature" style="width:100%" onclick="myFunction(this);">
+				</div>
+				<div class="column">
+				  <img src="../img/anna-sullivan-NFS3ekDQnlg-unsplash.jpg" alt="Snow" style="width:100%" onclick="myFunction(this);">
+				</div>
+				<div class="column">
+				  <img src="../img/e3213cbfdb999376f27cf97378b73763.jpg" alt="Mountains" style="width:100%" onclick="myFunction(this);">
+				</div>
+				<div class="column">
+				  <img src="../img/196-1966820_full-hd-motivational-wallpapers-laptop-dreams-dont-work.jpg" alt="Lights" style="width:100%" onclick="myFunction(this);">
+				</div>
+			  </div>
+			  
+			  <div class="container">
+				<span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+				<img id="expandedImg" style="width:100%">
+				<div id="imgtext"></div>
+			  </div>
+			  
+		</main>
+
+		
+
+
+
+
+		
+	</body>
+</html>
+
+
